@@ -36,7 +36,7 @@ function initMyBookmarklet(){
 
 
            javascript:void(document.getElementsByTagName("*").style.color = 'blue');
-           console.log(document.getElementsByTagName('*'));
+           console.log(document.getElementsByTagName('*').style.color);
  
  /*
  $(document).click(function(){    // location can be changed e.g. $('h1')
