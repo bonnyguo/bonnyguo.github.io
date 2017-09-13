@@ -48,7 +48,7 @@ function initMyBookmarklet(){
             } else {
                 var s=12;}s+=5;p[i].style.fontSize=s+"px"}
  */
-});
+
 
 //end
 
