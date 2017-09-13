@@ -33,10 +33,10 @@ function initMyBookmarklet(){
 
         //YOUR CODE GOES HERE!
     
-    function turnRed() {
+
         var myPara = document.getElementById("changeText");
         myPara.style.color = "red";
-    }
+    
 
 
 /*
