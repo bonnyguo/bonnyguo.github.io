@@ -35,7 +35,7 @@ function initMyBookmarklet(){
     
 
 //$(document).click(function({
-$(document).mousemove(function({
+//$(document).mousemove(function({
     var p=document.getElementsByTagName('*');
         for(i=0;i<p.length;i++){
             if(p[i].style.fontSize){
@@ -43,7 +43,7 @@ $(document).mousemove(function({
             } else {
                 var s=12;}s+=5;p[i].style.fontSize=s+"px"}
 
-}));
+//}));
 
 //end
 
