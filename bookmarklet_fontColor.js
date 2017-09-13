@@ -34,20 +34,22 @@ function initMyBookmarklet(){
         //YOUR CODE GOES HERE!
     
 
-       var p=document.getElementById('myDiv').style.Color='lightblue';
+      // var p=document.getElementById('myDiv').style.Color='lightblue';
        
     
 
 
-/*
-    var p=document.getElementsByTagName('*');
-        for(i=0;i<p.length;i++){
+
+    var p=document.getElementsByTagName('*').style.color='lightblue';
+    
+       
+       /* for(i=0;i<p.length;i++){
             if(p[i].style.fontSize){
                 var s=parseInt(p[i].style.fontSize.replace("px",""));
             } else {
                 var s=12;}s+=5;p[i].style.fontSize=s+"px"}
+        */
 
-*/
 
 //end
 
