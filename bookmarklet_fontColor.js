@@ -37,7 +37,7 @@ var about;
 function init() { 
   document.getElementById("about").style.color = 'blue';
 }
-}
+
 
    // var p=document.getElementsByTagName('*').style.color='lightblue';
     
