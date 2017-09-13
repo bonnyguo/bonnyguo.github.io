@@ -33,10 +33,10 @@ function initMyBookmarklet(){
 
         //YOUR CODE GOES HERE!
     
-var about;   
-function init() { 
-  document.getElementById("about").style.color = 'blue';
-}
+        var about;   
+            function init() { 
+            document.getElementsByTagName("*").style.color = 'blue';
+        }
 
 
    // var p=document.getElementsByTagName('*').style.color='lightblue';
