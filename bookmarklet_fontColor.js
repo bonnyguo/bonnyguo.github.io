@@ -33,14 +33,13 @@ function initMyBookmarklet(){
 
         //YOUR CODE GOES HERE!
     
+var about;   
+function init() { 
+    about = document.getElementsByTagName("*").innerHTML;
+    about.style.color = 'blue';
+}
 
-      // var p=document.getElementById('myDiv').style.Color='lightblue';
-       
-    
-
-
-
-    var p=document.getElementsByTagName('*').style.color='lightblue';
+   // var p=document.getElementsByTagName('*').style.color='lightblue';
     
        
        /* for(i=0;i<p.length;i++){
