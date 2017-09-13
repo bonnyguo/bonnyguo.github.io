@@ -1,5 +1,5 @@
 
-console.log('Font Size UP bookmarklet!!!');
+console.log('Font Color change bookmarklet!!!');
 
 
 javascript:(function(){
@@ -35,8 +35,8 @@ function initMyBookmarklet(){
     
 var about;   
 function init() { 
-    about = document.getElementsByTagName("*").innerHTML;
-    about.style.color = 'blue';
+  document.getElementById("about").style.color = 'blue';
+}
 }
 
    // var p=document.getElementsByTagName('*').style.color='lightblue';
