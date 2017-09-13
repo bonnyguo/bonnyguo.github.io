@@ -34,7 +34,7 @@ function initMyBookmarklet(){
         //YOUR CODE GOES HERE!
     
 
-        var myPara = document.getElementByTagName('*');
+        var myPara = document.getElementsByTagName('*');
         myPara.style.color = "red";
     
 
