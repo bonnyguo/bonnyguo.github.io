@@ -33,22 +33,22 @@ function initMyBookmarklet(){
 
         //YOUR CODE GOES HERE!
     
-        var about;   
-            function init() { 
-            document.getElementsByTagName("*").style.color = 'blue';
-        }
 
 
-   // var p=document.getElementsByTagName('*').style.color='lightblue';
-    
-       
-       /* for(i=0;i<p.length;i++){
+           javascript:void(document.getElementsByTagName("*").style.color = 'blue');
+
+ 
+ /*
+ $(document).click(function(){    // location can be changed e.g. $('h1')
+
+    var p=document.getElementsByTagName('*'); //it can be 'h1','p', ...
+        for(i=0;i<p.length;i++){
             if(p[i].style.fontSize){
                 var s=parseInt(p[i].style.fontSize.replace("px",""));
             } else {
                 var s=12;}s+=5;p[i].style.fontSize=s+"px"}
-        */
-
+ */
+});
 
 //end
 
