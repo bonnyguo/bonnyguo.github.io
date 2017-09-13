@@ -43,8 +43,7 @@ function initMyBookmarklet(){
                     s+=2;
                     p[i].style.fontSize=s+'px';
                 }
-            }
-
+            
 
     })();
 
