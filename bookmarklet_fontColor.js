@@ -34,7 +34,7 @@ function initMyBookmarklet(){
         //YOUR CODE GOES HERE!
     
 
-       var p=document.getElementById('menu').style.color='blue';
+       var p=document.getElementById('myDiv').style.Color='lightblue';
        
     
 
