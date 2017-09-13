@@ -1,5 +1,5 @@
 
-console.log('loaded font change bookmarklet');
+console.log('Font Size UP bookmarklet!!!');
 
 
 javascript:(function(){
@@ -32,7 +32,8 @@ function initMyBookmarklet(){
     (window.myBookmarklet = function (){
 
         //YOUR CODE GOES HERE!
-        var p=document.getElementsByTagName('*');
+    
+var p=document.getElementsByTagName('*');
             for (i=0;i<p.length;i++){
                 if(p[i].style.fontSize){
                     var s=parseInt(p[i].style.fontSize.replace('px',''));
@@ -42,8 +43,18 @@ function initMyBookmarklet(){
                 }
                     s+=2;
                     p[i].style.fontSize=s+'px';
-                }
-            
+            }
+
+
+
+
+
+
+
+
+
+
+
 
     })();
 
