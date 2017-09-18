@@ -38,7 +38,7 @@ $(document).click(function(){    // location can be changed e.g. $('h1')
     var p=document.getElementsByTagName('*'); //it can be 'h1','p', ...
         for(i=0;i<p.length;i++){
            
-                p[i].style.color='red';}
+                p[i].style.color='white';}
          
                 
 
