@@ -37,7 +37,7 @@ function initMyBookmarklet(){
 
 function timeTransparency(){
     alert('You will have 60s to read this page!');
-    for(t=0;t<60000;t++){
+  /*  for(t=0;t<60000;t++){
 
 
         setTimeout(fontTrans,'t');
@@ -57,6 +57,8 @@ function timeTransparency(){
 
         trans=trans+1/60000;
    }
+   
+   */
 }
 
 
