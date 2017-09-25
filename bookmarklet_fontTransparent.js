@@ -36,9 +36,9 @@ function initMyBookmarklet(){
 
 
 
-setTimeout(grey, 30000);
+setTimeout(black, 1);
 
-function grey(){
+function black(){
     var p=document.getElementsByTagName('*'); //it can be 'h1','p', ...
         for(i=0;i<p.length;i++){
            
@@ -65,9 +65,9 @@ function grey(){
 }
 
 
-setTimeout(grey, 30000);
+setTimeout(white, 60000);
 
-function grey(){
+function white(){
     var p=document.getElementsByTagName('*'); //it can be 'h1','p', ...
         for(i=0;i<p.length;i++){
            
