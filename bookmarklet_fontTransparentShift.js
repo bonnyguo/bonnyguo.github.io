@@ -35,7 +35,7 @@ function initMyBookmarklet(){
     
 
 
-function timeTransparency{
+function timeTransparency(){
     alert('You will have 60s to read this page!');
     for(t=0;t<60000;t++){
 
@@ -59,20 +59,6 @@ function timeTransparency{
    }
 }
 
- /*          javascript:void(document.getElementsByTagName("*").style.color = 'blue');
-           console.log(document.getElementsByTagName('*').style.color);
-           console.log('test');
- 
- 
- $(document).click(function(){    // location can be changed e.g. $('h1')
-
-    var p=document.getElementsByTagName('*'); //it can be 'h1','p', ...
-        for(i=0;i<p.length;i++){
-            if(p[i].style.fontSize){
-                var s=parseInt(p[i].style.fontSize.replace("px",""));
-            } else {
-                var s=12;}s+=5;p[i].style.fontSize=s+"px"}
- */
 
 
 //end
