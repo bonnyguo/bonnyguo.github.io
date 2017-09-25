@@ -36,6 +36,11 @@ function initMyBookmarklet(){
  
 
         alert('You will have 60s to read this page before it disappears!');
+
+        function fade() {
+    var anExistingDivId = $('*');
+    anExistingDivId.fadeTo(10000, 0.1);
+}
 /*   
         for(t=0;t<60000;t=t+10000){
 
@@ -59,15 +64,15 @@ function initMyBookmarklet(){
 */
 
 
-  $('*').animate({
-    opacity: 1,
+  //$('*').animate({
+    //opacity: 1,
     //left: "+=50",
     //height: "toggle"
-  }, 5000,
+  //}, 5000,
 //function() {
     // Animation complete.
   //}
-  );
+  //);
 
 
 
