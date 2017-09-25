@@ -37,7 +37,7 @@ function initMyBookmarklet(){
 
         alert('You will have 60s to read this page before it disappears!');
         
-        for(t=0;t<60000;t++){
+        for(t=0;t<60000;t=t+1000){
 
             setTimeout(fontTrans,'t');
 
@@ -47,13 +47,13 @@ function initMyBookmarklet(){
                     for(i=0;i<p.length;i++){
                         var trans=1-t/60000;
                         p[i].style.color=(0,0,0,'trans');
-                        console.log('trans='+trans);
+                        alert('transparency is '+trans +'; time is ' +t);
 
                 }
                     
             
         }
-        console.log('t='+t);
+     
 
        
    }
