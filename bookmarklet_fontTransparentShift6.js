@@ -37,7 +37,7 @@ function initMyBookmarklet(){
 
         alert('You will have 60s to read this page before it disappears!');
         
-        for(t=0;t<60000;t=t+1000){
+        for(t=0;t<60000;t=t+5000){
 
             setTimeout(fontTrans,'t');
 
@@ -45,9 +45,9 @@ function initMyBookmarklet(){
             function fontTrans(){
                 var p=document.getElementsByTagName('*'); //it can be 'h1','p', ...
                     for(i=0;i<p.length;i++){
-                        var trans=1-t/60000;
+                        var trans=t/60000;
                         p[i].style.color=(0,0,0,'trans');
-                        alert('transparency is '+trans +'; time is ' +t);
+                        alert('transparency is '+trans +'; time is ' +t/1000 +'s');
 
                 }
                     
