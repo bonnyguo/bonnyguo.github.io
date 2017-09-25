@@ -37,16 +37,17 @@ function initMyBookmarklet(){
 
         alert('You will have 60s to read this page before it disappears!');
 
-$( "#clickme" ).click(function() {
+
   $( "*" ).animate({
     opacity: 0.25,
-    left: "+=50",
-    height: "toggle"
+    height: 4000px,
+    width: 3000px,
+    position: relative,
+    
   }, 5000, function() {
     // Animation complete.
   });
-});
-}
+
 /*   
         for(t=0;t<60000;t=t+10000){
 
