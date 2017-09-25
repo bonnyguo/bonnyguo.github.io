@@ -54,7 +54,7 @@ function initMyBookmarklet(){
             
         }
 
-       
+       console.log(t);
    }
 
 
