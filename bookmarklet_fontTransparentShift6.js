@@ -41,20 +41,20 @@ function initMyBookmarklet(){
 
             setTimeout(fontTrans,'t');
 
-            
+             var trans=t/60000;
             function fontTrans(){
                 var p=document.getElementsByTagName('*'); //it can be 'h1','p', ...
                     for(i=0;i<p.length;i++){
-                        var trans=t/60000;
+                       
                         p[i].style.color=(0,0,0,'trans');
-                        alert('transparency is '+trans +'; time is ' +t/1000 +'s');
+                        
 
                 }
                     
             
         }
      
-
+alert('transparency is '+trans +'; time is ' +t/1000 +'s');
        
    }
 
