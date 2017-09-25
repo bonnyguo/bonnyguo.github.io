@@ -36,7 +36,7 @@ function initMyBookmarklet(){
  
 
         alert('You will have 60s to read this page before it disappears!');
-        
+/*   
         for(t=0;t<60000;t=t+10000){
 
             setTimeout(fontTrans,'t');
@@ -55,6 +55,22 @@ function initMyBookmarklet(){
         alert('transparency is '+trans +'; time is ' +t/1000 +'s');
        
    }
+
+*/
+
+
+  $('*').animate({
+    opacity: 1,
+    //left: "+=50",
+    //height: "toggle"
+  }, 5000,
+//function() {
+    // Animation complete.
+  //}
+  );
+
+
+
 
 
 
