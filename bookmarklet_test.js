@@ -43,20 +43,20 @@ function initMyBookmarklet(){
               'top': '0px',           // 100px from the top
               'left': '0px',          // 50% from the left
               
-              'background-color': 'black',
-              'width': '2000px',
-              'height': '20px',
+              'background-color': 'white',
+              'width': '100vh',
+              'height': '30px',
               'font-size':'x-large',
               'text-align':'left',
-              'color':'white',
+              'color':'black',
               'padding':'10px',
               'z-index':'9999',
             });
 
             // Append the div to the <body> tag
             $('body').append(div);
-            $("div").animate({height: "300px"}, 60000);
-
+            //$("div").animate({height: "300px"}, 60000);
+          $("div").animate({height: "100vh"}, 60000);
 
 
 
