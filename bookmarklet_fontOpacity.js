@@ -39,6 +39,7 @@ $(document).click(function(){    // location can be changed e.g. $('h1')
         for(i=0;i<p.length;i++){
            
                 p[i].style.opacity=0.9;}
+                alert('0.9');
          
                 
 
@@ -50,7 +51,7 @@ $(document).click(function(){    // location can be changed e.g. $('h1')
            
                 p[i].style.opacity=0.8;}
          
-                
+                alert('0.8');
 
 });
 $(document).click(function(){    // location can be changed e.g. $('h1')
@@ -59,7 +60,7 @@ $(document).click(function(){    // location can be changed e.g. $('h1')
         for(i=0;i<p.length;i++){
            
                 p[i].style.opacity=0.7;}
-         
+         alert('0.7');
                 
 
 });
