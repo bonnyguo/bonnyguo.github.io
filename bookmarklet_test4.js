@@ -46,7 +46,7 @@ function initMyBookmarklet(){
               'font-variant':'small-caps',
               'font-family':'Helvetica',
               'background-color': 'white',
-              'width': '100wh',
+              'width': '2000px',
               'height': '0px',
               'font-size':'50px',
               //'font-size':'100em',
