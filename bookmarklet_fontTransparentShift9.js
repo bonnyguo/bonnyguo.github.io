@@ -39,59 +39,43 @@ function initMyBookmarklet(){
 
 
 
-
-// Polyfill getComputedStyle for old IE
-if (!window.getComputedStyle) {
-  window.getComputedStyle = function(element) {
-    return element.currentStyle;
-  }
+function toggleOpacity(id) {
+    var el = document.getElementById(id);
+    if (el.style.opacity == 1) {
+        fadeObject(el, 1, 0, 5000)
+    } else {
+        fadeObject(el, 0, 1, 5000)
+    }
 }
 
-// Your _opacity function
-function _opacity(ele, opacity, addOpac, delay) {
-  var direction;
-  ele = document.getElementById(ele);
-  
-  // Determine direction
-  direction = +getComputedStyle(ele).opacity < opacity ? 1 : -1;
-  var timer = setInterval(function() {
-    // Get the *computed* opacity
-    var current = +getComputedStyle(ele).opacity;
-    if (direction > 0) {
-      if (current < opacity) {
-        increase(current);
-      } else {
-        stopInc();
-      }
+function fadeObject(el, start, end, duration) {
+    var range = end - start;
+    var goingUp = end > start;
+    var steps = duration / 20;   // arbitrarily picked 20ms for each step
+    var increment = range / steps;
+    var current = start;
+    var more = true;
+    function next() {
+        current = current + increment;
+        if (goingUp) {
+            if (current > end) {
+                current = end;
+                more = false;
+            }
+        } else {
+            if (current < end) {
+                current = end;
+                more = false;
+            }
+        }
+        el.style.opacity = current;
+        if (more) {
+            setTimeout(next, 20);
+        }
     }
-    else {
-      if (current > opacity) {
-        decrease(current);
-      } else {
-        stopInc();
-      }
-    }
+    next();
+}
 
-  }, delay),
-
-  increase = function(current) {
-    // Increase, but don't go past target
-    ele.style.opacity = Math.min(current + addOpac, opacity);
-  },
-
-  decrease = function(current) {
-        
-    // Decrease, but don't go past target
-    ele.style.opacity = Math.max(current - addOpac, opacity);
-
-  },
-  stopInc = function() {
-    clearInterval(timer);
-  };
-};
-
-// Run
-_opacity("*", 0.3, 0.01, 5000);
 /*
   $( "*" ).animate({
     opacity: 0.25,
