@@ -48,7 +48,7 @@ function initMyBookmarklet(){
               'background-color': 'white',
               'width': '100vw',
               'height': '30px',
-              'font-size':'30px',
+              'font-size':'50px',
               'text-align':'left',
               'color':'black',
               'padding':'10px',
