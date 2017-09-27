@@ -39,12 +39,14 @@ function initMyBookmarklet(){
 
 
 
-function toggleOpacity(id) {
+function toggleOpacity() {
     var el = document.getElementsByTagName('*');
     if (el.style.opacity == 1) {
-        fadeObject(el, 1, 0, 5000)
+        fadeObject(el, 1, 0, 5000);
+        console.log('opacity==1');
     } else {
-        fadeObject(el, 0, 1, 5000)
+        fadeObject(el, 0, 1, 5000);
+         console.log('opacity!=1');
     }
 }
 
