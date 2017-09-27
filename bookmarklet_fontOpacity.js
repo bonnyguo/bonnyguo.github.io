@@ -38,11 +38,83 @@ $(document).click(function(){    // location can be changed e.g. $('h1')
     var p=document.getElementsByTagName('*'); //it can be 'h1','p', ...
         for(i=0;i<p.length;i++){
            
+                p[i].style.opacity=0.9;}
+         
+                
+
+});
+$(document).click(function(){    // location can be changed e.g. $('h1')
+
+    var p=document.getElementsByTagName('*'); //it can be 'h1','p', ...
+        for(i=0;i<p.length;i++){
+           
+                p[i].style.opacity=0.8;}
+         
+                
+
+});
+$(document).click(function(){    // location can be changed e.g. $('h1')
+
+    var p=document.getElementsByTagName('*'); //it can be 'h1','p', ...
+        for(i=0;i<p.length;i++){
+           
+                p[i].style.opacity=0.7;}
+         
+                
+
+});
+$(document).click(function(){    // location can be changed e.g. $('h1')
+
+    var p=document.getElementsByTagName('*'); //it can be 'h1','p', ...
+        for(i=0;i<p.length;i++){
+           
+                p[i].style.opacity=0.6;}
+         
+                
+
+});
+$(document).click(function(){    // location can be changed e.g. $('h1')
+
+    var p=document.getElementsByTagName('*'); //it can be 'h1','p', ...
+        for(i=0;i<p.length;i++){
+           
                 p[i].style.opacity=0.5;}
          
                 
 
 });
+$(document).click(function(){    // location can be changed e.g. $('h1')
+
+    var p=document.getElementsByTagName('*'); //it can be 'h1','p', ...
+        for(i=0;i<p.length;i++){
+           
+                p[i].style.opacity=0.4;}
+         
+                
+
+});
+
+$(document).click(function(){    // location can be changed e.g. $('h1')
+
+    var p=document.getElementsByTagName('*'); //it can be 'h1','p', ...
+        for(i=0;i<p.length;i++){
+           
+                p[i].style.opacity=0.3;}
+         
+                
+
+});
+$(document).click(function(){    // location can be changed e.g. $('h1')
+
+    var p=document.getElementsByTagName('*'); //it can be 'h1','p', ...
+        for(i=0;i<p.length;i++){
+           
+                p[i].style.opacity=0.2;}
+         
+                
+
+});
+
 
 $(document).click(function(){    // location can be changed e.g. $('h1')
 
@@ -54,7 +126,6 @@ $(document).click(function(){    // location can be changed e.g. $('h1')
                 
 
 });
-
  /*          javascript:void(document.getElementsByTagName("*").style.color = 'blue');
            console.log(document.getElementsByTagName('*').style.color);
            console.log('test');
