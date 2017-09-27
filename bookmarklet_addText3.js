@@ -49,7 +49,7 @@ function initMyBookmarklet(){
       'text-align':'left',
       'color':'white',
       'padding':'10px',
-      'z-index':'9999',
+      'z-index':'9998',
     });
 
     // Append the div to the <body> tag
@@ -60,10 +60,14 @@ var div2 = $("<div></div>");
     $('#div2').fadeIn(30000);
 
     div2.css({
+        'position': 'fixed', // position absolutely
+      'top': '0px',           // 100px from the top
+      'left': '0px',          // 50% from the left
         'width': '2000px',
         'height':'6000px',
         'display':'none',
         'background-color': 'white',
+         'z-index':'9999',
 
 
     });
