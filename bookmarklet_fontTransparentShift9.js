@@ -43,6 +43,7 @@ function toggleOpacity() {
         console.log('works');
 }
 
+
 function fadeObject(el, duration) {
    
     var steps = duration / 20;   // arbitrarily picked 20ms for each step
@@ -57,7 +58,16 @@ function fadeObject(el, duration) {
                 more = false;
             }
 
-        el.style.opacity = current;
+
+
+    // location can be changed e.g. $('h1')
+
+   // var p=document.getElementsByTagName('*'); //it can be 'h1','p', ...
+        for(i=0;i<el.length;i++){
+                el[i].style.opacity=current;
+            }
+
+       // el.style.opacity = current;
         if (more) {
             setTimeout(next, 20);
         }
