@@ -51,7 +51,7 @@ function initMyBookmarklet(){
               'color':'red',
               'padding':'10px',
               'z-index':'9999',
-              'float':'left',
+              //'float':'left',
             });
 
             // Append the div to the <body> tag
