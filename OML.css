@@ -3,9 +3,9 @@ body { background: #000000 /* from jesus_X and photoshop */; color: white; }
 
 /* Headers  */
 h2, h3, h4 { -moz-border-radius: 1em; padding-left: .5em; margin-left: -.4em; margin-right: -.4em }
-h2 { background: #fdb; border-bottom: 1px solid #ca8 }
-h3 { background: #fdb; border-bottom: 1px solid #db9 }
-h4 { background: #fdb; border-bottom: 1px solid #eca }
+h2 { background: #000000; border-bottom: 1px solid #ca8 }
+h3 { background: #000000; border-bottom: 1px solid #db9 }
+h4 { background: #000000; border-bottom: 1px solid #eca }
 h4.transparent { background: transparent; border-bottom: none; }
 hr { display: none }
 
@@ -26,9 +26,9 @@ td.bad  { background: #faa; border: 1px solid #c88; }
 
 /* Bookmarklets */
 @media all { /* Hide from NS4, which makes it a block and not a link if I add these */
- a.bml { border:1px outset #ddd; padding: 1px; vertical-align: 1px; }
+ a.bml { border:1px outset #ddd; padding: 10px; vertical-align: 1px; }
 }
-a.bml { background: #ffffff; text-decoration: none;  font-family: sans-serif; font-size: 80%; color: yellow; }
+a.bml { background: #ffffff; text-decoration: none;  font-family: sans-serif; font-size: 80%; color: grey; }
 
 /* DLs: news.html, userstyles/, userstyles/xbl.html */
 dt { font-weight: bold }
