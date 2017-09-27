@@ -33,100 +33,35 @@ function initMyBookmarklet(){
 
         //YOUR CODE GOES HERE!
     
-$(document).click(function(){    // location can be changed e.g. $('h1')
+
+     alert('You will have 60s to read this page!');
+
+        setTimeout(opac(0.9),6000);  
+        setTimeout(opac(0.8),12000);  
+        setTimeout(opac(0.7),18000);  
+        setTimeout(opac(0.6),24000);  
+        setTimeout(opac(0.5),30000);  
+     alert('30s left');
+        setTimeout(opac(0.4),36000);  
+        setTimeout(opac(0.3),42000);  
+        setTimeout(opac(0.2),48000); 
+        setTimeout(opac(0.1),54000); 
+        setTimeout(opac(0),60000); 
+    alert('time is up');
+
+function opac(o){
 
     var p=document.getElementsByTagName('*'); //it can be 'h1','p', ...
+        
         for(i=0;i<p.length;i++){
            
-                p[i].style.opacity=0.9;}
-                alert('0.9');
+            p[i].style.opacity=o;
+        }
+        alert('opacity='+o);
+}
          
-                
+              
 
-});
-$(document).click(function(){    // location can be changed e.g. $('h1')
-
-    var p=document.getElementsByTagName('*'); //it can be 'h1','p', ...
-        for(i=0;i<p.length;i++){
-           
-                p[i].style.opacity=0.8;}
-         
-                alert('0.8');
-
-});
-$(document).click(function(){    // location can be changed e.g. $('h1')
-
-    var p=document.getElementsByTagName('*'); //it can be 'h1','p', ...
-        for(i=0;i<p.length;i++){
-           
-                p[i].style.opacity=0.7;}
-         alert('0.7');
-                
-
-});
-$(document).click(function(){    // location can be changed e.g. $('h1')
-
-    var p=document.getElementsByTagName('*'); //it can be 'h1','p', ...
-        for(i=0;i<p.length;i++){
-           
-                p[i].style.opacity=0.6;}
-         
-                
-
-});
-$(document).click(function(){    // location can be changed e.g. $('h1')
-
-    var p=document.getElementsByTagName('*'); //it can be 'h1','p', ...
-        for(i=0;i<p.length;i++){
-           
-                p[i].style.opacity=0.5;}
-         
-                
-
-});
-$(document).click(function(){    // location can be changed e.g. $('h1')
-
-    var p=document.getElementsByTagName('*'); //it can be 'h1','p', ...
-        for(i=0;i<p.length;i++){
-           
-                p[i].style.opacity=0.4;}
-         
-                
-
-});
-
-$(document).click(function(){    // location can be changed e.g. $('h1')
-
-    var p=document.getElementsByTagName('*'); //it can be 'h1','p', ...
-        for(i=0;i<p.length;i++){
-           
-                p[i].style.opacity=0.3;}
-         
-                
-
-});
-$(document).click(function(){    // location can be changed e.g. $('h1')
-
-    var p=document.getElementsByTagName('*'); //it can be 'h1','p', ...
-        for(i=0;i<p.length;i++){
-           
-                p[i].style.opacity=0.2;}
-         
-                
-
-});
-
-
-$(document).click(function(){    // location can be changed e.g. $('h1')
-
-    var p=document.getElementsByTagName('*'); //it can be 'h1','p', ...
-        for(i=0;i<p.length;i++){
-           
-                p[i].style.opacity=0.1;}
-         
-                
-
-});
  /*          javascript:void(document.getElementsByTagName("*").style.color = 'blue');
            console.log(document.getElementsByTagName('*').style.color);
            console.log('test');
