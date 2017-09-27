@@ -42,11 +42,13 @@ function initMyBookmarklet(){
               'position': 'fixed', // position absolutely
               'top': '0px',           // 100px from the top
               'left': '0px',          // 50% from the left
-              
+              'font-weight':'bold',
+              'font-variant':'small-caps',
+              'font-family':'Helvetica',
               'background-color': 'white',
               'width': '100vw',
               'height': '30px',
-              'font-size':'x-large',
+              'font-size':'30px',
               'text-align':'left',
               'color':'black',
               'padding':'10px',
