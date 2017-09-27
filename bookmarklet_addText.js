@@ -35,17 +35,19 @@ function initMyBookmarklet(){
 
 
 
-var div = $("<div>Here is some text</div>");
+var div = $("<div>You only have 60s to read this page before it is gone!</div>");
 
 // add some css properties to the div
 div.css({
-  'position': 'absolute', // position absolutely
-  'top': '100px',           // 100px from the top
-  'left': '50%',          // 50% from the left
-  'border': '1px solid black', // black border
-  'background-color': 'white',
-  'width': '200px',
-  'height': '200px'
+  'position': 'fixed', // position absolutely
+  'top': '0px',           // 100px from the top
+  'left': '0px',          // 50% from the left
+  
+  'background-color': 'black',
+  'width': '2000px',
+  'height': '100px',
+  'font-size':'x-large',
+  'text-align':'center',
 });
 
 // Append the div to the <body> tag
