@@ -62,6 +62,7 @@ function black(ti){
 
         }
         
+        alert('opacity='+opa);
       /*  console.log('opacity='+opa);
         console.log('time='+t);*/
       
