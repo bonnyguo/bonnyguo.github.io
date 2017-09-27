@@ -36,14 +36,14 @@ function initMyBookmarklet(){
 
      alert('You will have 60s to read this page!');
 
-     var myVar;
+/*     var myVar;
      function myFunction(){
         for (var i=1;i<100;i++){
                 myVar=setInterval(opac(i),600);
                 console.log('step='+i);
             }
      }
-
+*/
 
 /*
      var i=1;
@@ -73,18 +73,18 @@ function initMyBookmarklet(){
         setTimeout(opac(0),60000); 
     alert('time is up');
 */
-function opac(o){
+function opac(0){
 
     var p=document.getElementsByTagName('*'); //it can be 'h1','p', ...
         
         for(var j=0;j<p.length;j++){
            
-            p[j].style.opacity=o/100;
+            p[j].style.opacity=0;
         }
        // alert('opacity='+o);
 }
          
-              
+              alert('time is up');
 
  /*          javascript:void(document.getElementsByTagName("*").style.color = 'blue');
            console.log(document.getElementsByTagName('*').style.color);
