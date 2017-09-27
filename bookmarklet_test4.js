@@ -46,10 +46,10 @@ function initMyBookmarklet(){
               'font-variant':'small-caps',
               'font-family':'Helvetica',
               'background-color': 'white',
-              'width': '0px',
+              'width': '100wh',
               'height': '0px',
               'font-size':'30px',
-              'font-size':'1em',
+              'font-size':'100em',
               'text-align':'left',
               'color':'black',
               'padding':'10px',
@@ -60,7 +60,7 @@ function initMyBookmarklet(){
             // Append the div to the <body> tag
             $('body').append(div);
             //$("div").animate({height: "300px"}, 60000);
-          $("div").animate({height: "100vh",width:"100wh"}, 60000);
+          $("div").animate({height: "100vh"}, 60000);
 
 
 
