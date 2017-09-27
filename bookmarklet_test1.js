@@ -45,17 +45,18 @@ function initMyBookmarklet(){
               
               'background-color': 'black',
               'width': '2000px',
-              'height': '20px',
+              'height': '0px',
               'font-size':'x-large',
               'text-align':'left',
-              'color':'white',
+              'color':'red',
               'padding':'10px',
               'z-index':'9999',
+              'float':'left',
             });
 
             // Append the div to the <body> tag
             $('body').append(div);
-            $("div").animate({height: "300px"}, 60000);
+            $("div").animate({height: "100hv"}, 60000);
 
 
 
