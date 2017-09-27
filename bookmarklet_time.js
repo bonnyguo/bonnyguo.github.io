@@ -51,13 +51,13 @@ function initMyBookmarklet(){
               'color':'black',
               'padding':'10px',
               'z-index':'9999',
-              'float':'left',
+              //'float':'left',
             });
 
             // Append the div to the <body> tag
             $('body').append(div);
             //$("div").animate({height: "300px"}, 60000);
-$("div").animate({height: "100vh"}, 60000);
+        $("div").animate({height: "100vh"}, 60000);
 
 
 
