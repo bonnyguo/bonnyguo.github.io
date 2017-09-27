@@ -44,13 +44,14 @@ function initMyBookmarklet(){
               'left': '0px',          // 50% from the left
               
               'background-color': 'white',
-              'width': '100vh',
+              'width': '100vw',
               'height': '30px',
               'font-size':'x-large',
               'text-align':'left',
               'color':'black',
               'padding':'10px',
               'z-index':'9999',
+              'float':'left',
             });
 
             // Append the div to the <body> tag
