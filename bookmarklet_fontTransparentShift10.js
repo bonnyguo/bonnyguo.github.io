@@ -35,15 +35,26 @@ function initMyBookmarklet(){
     
  
 
-setTimeout(black, t); // funciton + delay time
+//setTimeout(black, 1); // funciton + delay time
 alert('You will have 60s to read this page!');
 
-function black(){
+
+function timer(){
+    
+    for(var t=0.0001;t<10000;t++){
+
+        setTimeout(black(t),t);
+    }
+
+}
+
+
+
+function black(ti){
     var p=document.getElementsByTagName('*'); //it can be 'h1','p', ...
     
-    t=0;
-    
-    for(var opa=1;opa>=0;opa=opa-0.01){
+    var opa=ti/10000;
+   
 
         for(i=0;i<p.length;i++){
            
@@ -51,11 +62,11 @@ function black(){
 
         }
         
-        t=t+100;
+      /*  console.log('opacity='+opa);
+        console.log('time='+t);*/
+      
 
-    }      
-
-    alert('Time is up!');
+    //alert('Time is up!');
 }
 
 //end
