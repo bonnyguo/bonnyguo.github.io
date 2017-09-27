@@ -43,10 +43,6 @@ if (/Gecko\/200305(\d\d)/.exec(ua))
 href="javascript:(function(){var x,n,nD,z,i; function htmlEscape(s){s=s.replace(/&amp;/g,'&amp;amp;');s=s.replace(/&gt;/g,'&amp;gt;');s=s.replace(/&lt;/g,'&amp;lt;');return s;} function attrQuoteEscape(s){s=s.replace(/&amp;/g,'&amp;amp;'); s=s.replace(/&quot;/g, '&amp;quot;');return s;} x=prompt(&quot;show links with this word/phrase in link text or target url (leave blank to list all links):&quot;, &quot;&quot;); n=0; if(x!=null) { x=x.toLowerCase(); nD = window.open().document; nD.writeln('&lt;html&gt;&lt;head&gt;&lt;title&gt;Links containing &quot;'+htmlEscape(x)+'&quot;&lt;/title&gt;&lt;base target=&quot;_blank&quot;&gt;&lt;/head&gt;&lt;body&gt;'); nD.writeln('Links on &lt;a href=&quot;'+attrQuoteEscape(location.href)+'&quot;&gt;'+htmlEscape(location.href)+'&lt;/a&gt;&lt;br&gt; with link text or target url containing &amp;quot;' + htmlEscape(x) + '&amp;quot;&lt;br&gt;&lt;hr&gt;'); z = document.links; for (i = 0; i &lt; z.length; ++i) { if ((z[i].innerHTML &amp;&amp; z[i].innerHTML.toLowerCase().indexOf(x) != -1) || z[i].href.toLowerCase().indexOf(x) != -1 ) { nD.writeln(++n + '. &lt;a href=&quot;' + attrQuoteEscape(z[i].href) + '&quot;&gt;' + (z[i].innerHTML || htmlEscape(z[i].href)) + '&lt;/a&gt;&lt;br&gt;'); } } nD.writeln('&lt;hr&gt;&lt;/body&gt;&lt;/html&gt;'); nD.close(); } })();"
 >search links</a></td>
 <td>Lists all links on the page containing the specified text. <a href="#search_links">Details</a></td>
-<td><img src="icons/FFF6ED/ie.PNG" alt="IE" width=16 height=16></td>
-<td><img src="icons/FFF6ED/phx.PNG" alt="Moz" width=16 height=16></td>
-<td><img src="icons/FFF6ED/ns4.PNG" alt="NS4" width=16 height=16></td>
-<td><img src="icons/FFF6ED/op7.PNG" alt="Op7" width=16 height=16></td>
 </tr>
 
 
@@ -57,7 +53,7 @@ href="javascript:(function(){var x,n,nD,z,i; function htmlEscape(s){s=s.replace(
 <h4 class=transparent><a name="search_links" class="bml"
 href="javascript:(function(){var x,n,nD,z,i; function htmlEscape(s){s=s.replace(/&amp;/g,'&amp;amp;');s=s.replace(/&gt;/g,'&amp;gt;');s=s.replace(/&lt;/g,'&amp;lt;');return s;} function attrQuoteEscape(s){s=s.replace(/&amp;/g,'&amp;amp;'); s=s.replace(/&quot;/g, '&amp;quot;');return s;} x=prompt(&quot;show links with this word/phrase in link text or target url (leave blank to list all links):&quot;, &quot;&quot;); n=0; if(x!=null) { x=x.toLowerCase(); nD = window.open().document; nD.writeln('&lt;html&gt;&lt;head&gt;&lt;title&gt;Links containing &quot;'+htmlEscape(x)+'&quot;&lt;/title&gt;&lt;base target=&quot;_blank&quot;&gt;&lt;/head&gt;&lt;body&gt;'); nD.writeln('Links on &lt;a href=&quot;'+attrQuoteEscape(location.href)+'&quot;&gt;'+htmlEscape(location.href)+'&lt;/a&gt;&lt;br&gt; with link text or target url containing &amp;quot;' + htmlEscape(x) + '&amp;quot;&lt;br&gt;&lt;hr&gt;'); z = document.links; for (i = 0; i &lt; z.length; ++i) { if ((z[i].innerHTML &amp;&amp; z[i].innerHTML.toLowerCase().indexOf(x) != -1) || z[i].href.toLowerCase().indexOf(x) != -1 ) { nD.writeln(++n + '. &lt;a href=&quot;' + attrQuoteEscape(z[i].href) + '&quot;&gt;' + (z[i].innerHTML || htmlEscape(z[i].href)) + '&lt;/a&gt;&lt;br&gt;'); } } nD.writeln('&lt;hr&gt;&lt;/body&gt;&lt;/html&gt;'); nD.close(); } })();"
 >search links</a>
-(<img src="icons/FFF6ED/ie.PNG" alt="IE" width=16 height=16>, <img src="icons/FFF6ED/phx.PNG" alt="Moz" width=16 height=16>, <img src="icons/FFF6ED/ns4.PNG" alt="NS4" width=16 height=16>, <img src="icons/FFF6ED/op7.PNG" alt="Op7" width=16 height=16>)
+
 </h4>
 <p class=shortdesc>Lists all links on the page containing the specified text.</p>
 <p>Prompts for a string (word or phrase), and then lists links on the page that contain that string in a new window. The string may appear in the link's target url or in its anchor text. If you leave the prompt blank, all links on the page will be listed.</p>
