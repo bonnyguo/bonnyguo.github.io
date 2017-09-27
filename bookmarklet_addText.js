@@ -34,25 +34,38 @@ function initMyBookmarklet(){
         //YOUR CODE GOES HERE!
 
 
+    var div = $("<div>You only have 60s to read this page before it is gone!</div>");
 
-var div = $("<div>You only have 60s to read this page before it is gone!</div>");
+    // add some css properties to the div
+    div.css({
+      'position': 'fixed', // position absolutely
+      'top': '0px',           // 100px from the top
+      'left': '0px',          // 50% from the left
+      
+      'background-color': 'black',
+      'width': '2000px',
+      'height': '40px',
+      'font-size':'x-large',
+      'text-align':'left',
+      'color':'white',
+    });
 
-// add some css properties to the div
-div.css({
-  'position': 'fixed', // position absolutely
-  'top': '0px',           // 100px from the top
-  'left': '0px',          // 50% from the left
-  
-  'background-color': 'black',
-  'width': '2000px',
-  'height': '100px',
-  'font-size':'x-large',
-  'text-align':'center',
-  'color':'white',
-});
+    // Append the div to the <body> tag
+    $('body').append(div);
 
-// Append the div to the <body> tag
-$('body').append(div);
+var opacity = 0;
+
+function MyFadeFunction() {
+   if (opacity<1) {
+      opacity += .1;
+      setTimeout(function(){MyFadeFunction()},1000);
+   }
+   document.getElementsByTagName('*').style.opacity = opacity;
+}
+
+
+
+
 
 
 
