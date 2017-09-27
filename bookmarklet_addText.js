@@ -48,6 +48,7 @@ div.css({
   'height': '100px',
   'font-size':'x-large',
   'text-align':'center',
+  'color':'white',
 });
 
 // Append the div to the <body> tag
