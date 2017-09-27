@@ -40,7 +40,7 @@ function initMyBookmarklet(){
 
 
 function toggleOpacity(id) {
-    var el = document.getElementById(id);
+    var el = document.getElementsByTagName('*');
     if (el.style.opacity == 1) {
         fadeObject(el, 1, 0, 5000)
     } else {
