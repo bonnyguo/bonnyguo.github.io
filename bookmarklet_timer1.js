@@ -46,7 +46,7 @@ function initMyBookmarklet(){
               
               'background-color': 'black',
               'width': '2000px',
-              'height': '40px',
+              'height': '60px',
               'font-size':'x-large',
               'text-align':'left',
               'color':'white',
@@ -65,8 +65,6 @@ function initMyBookmarklet(){
 
 
         //end
-
-
 
     })();
 
