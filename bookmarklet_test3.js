@@ -60,7 +60,7 @@ function initMyBookmarklet(){
             // Append the div to the <body> tag
             $('body').append(div);
             //$("div").animate({height: "300px"}, 60000);
-          $("div").animate({height: "100vh",width:'100wh'}, 60000);
+          $("div").animate({/*height: "100vh"*/width:'100wh'}, 60000);
 
 
 
