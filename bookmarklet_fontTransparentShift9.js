@@ -37,9 +37,35 @@ function initMyBookmarklet(){
 
         alert('You will have 60s to read this page before it disappears!');
 
-
-
 function toggleOpacity() {
+    var el = document.getElementsByTagName('*');
+        fadeObject(el, 5000);
+        console.log('works');
+}
+
+function fadeObject(el, duration) {
+   
+    var steps = duration / 20;   // arbitrarily picked 20ms for each step
+    var increment = 1 / steps;
+    var current = 1;
+    var more = true;
+    function next() {
+        current = current - increment;
+    
+            if (current < 0) {
+                current = 0;
+                more = false;
+            }
+
+        el.style.opacity = current;
+        if (more) {
+            setTimeout(next, 20);
+        }
+    }
+    next();
+}
+
+/*function toggleOpacity() {
     var el = document.getElementsByTagName('*');
     if (el.style.opacity == 1) {
         fadeObject(el, 1, 0, 5000);
@@ -76,7 +102,7 @@ function fadeObject(el, start, end, duration) {
         }
     }
     next();
-}
+}*/
 
 /*
   $( "*" ).animate({
