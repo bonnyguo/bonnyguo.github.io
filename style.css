@@ -1,27 +1,23 @@
+ 
 .container{
 	position:absolute;
-	padding-top: 10%
-
+	
 }
-
-
 
 div{
 	position:absolute; 
-	left:20%;	
+	left:10%;	
 	top:20%;
-	max-width:90%;
-	max-height:90%;
+	width:90%;
+	height:90%;
 }
 		
-
 
 .frame{
 	position:absolute; 
-	left:20%;	
-	top:20%;
-	max-width:90%;
+	left:40%;	
+	top:60%;
+	width:90%;
 	max-height:90%;
 
 }
-		
