@@ -34,3 +34,9 @@ div{
 	height:80%;
 
 }
+
+img {
+	max-height: 100%;
+	width:auto;
+}
+
