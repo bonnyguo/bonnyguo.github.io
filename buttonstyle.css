@@ -1,0 +1,16 @@
+div{
+	position:absolute; 
+	text-align: center;
+	width:100vh;
+	height:100vh;
+}
+		
+
+.frame{
+	position:absolute; 
+	width:60%;
+	height:60%;
+	text-align: center;
+	border: 5px solid grey;
+	font-size: 50px;
+}
