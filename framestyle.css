@@ -1,0 +1,15 @@
+div{
+	position:absolute; 
+	text-align: center;
+	width:100vh;
+	height:100vh;
+}
+		
+
+.frame{
+	position:absolute; 
+	width:90%;
+	height:90%;
+	text-align: center;
+	border: 20px solid red;
+}
