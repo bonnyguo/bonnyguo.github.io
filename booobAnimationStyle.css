@@ -1,6 +1,7 @@
  
 .container{
 	position:absolute;
+	text-align: center;
 	
 }
 @keyframes example {

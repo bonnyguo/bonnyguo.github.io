@@ -1,0 +1,48 @@
+ 
+.container{
+	position:absolute;
+	text-align: center;
+	
+}
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+div{
+	width:100px;
+	height:100px;
+	background-color: black;
+	position:relative; 
+	text-align: center;
+/*	left:10%;	
+	top:20%;*/
+    background-color: red;
+  animation-name: example;
+    animation-duration: 4s;
+	width:80%;
+	height:80%;
+	margin: auto;
+	border: 5px solid yellow;
+	padding: 10px;
+
+}
+		
+
+.frame{
+	position:absolute; 
+	text-align: center;
+	left:10%;	
+	top:10%;
+	width:80%;
+	height:80%;
+
+}
+
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+

@@ -1,0 +1,62 @@
+ 
+.container{
+	
+	height:100vh;
+	position:absolute;
+	text-align: center;
+	
+}
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+div{
+	width:70%;
+	height:90%;
+	/*background-color: black;*/
+	position:absolute; 
+
+left:3%;	
+	top:1%;
+   /* background-color: red;*/
+  animation-name: pound;
+    animation-duration: 60s;
+    /*animation-delay:1s;*/
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-fill-mode: initial;
+	/*width:80%;
+	height:80%;*/
+	margin: auto;
+	/*border: 5px solid white;*/
+	padding: auto;
+
+}
+		
+
+img {
+	max-height: 100%;
+	width:auto;
+	text-align: center;
+}
+
+.frame{
+	position:absolute; 
+	text-align: center;
+	/*left:10%;	
+	top:10%;
+	width:80%;
+	height:80%;*/
+
+}
+
+@keyframes pound {
+  from { transform: none; }
+  to { transform: scale(0.4); }
+}
+
+.heart {
+  animation: pound .3s infinite;
+}
+
