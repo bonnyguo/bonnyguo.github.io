@@ -28,6 +28,7 @@ div{
 
 .frame{
 	position:absolute; 
+	text-align: center;
 /*	left:40%;	
 	top:60%;*/
 	width:80%;
@@ -38,5 +39,6 @@ div{
 img {
 	max-height: 100%;
 	width:auto;
+	text-align: center;
 }
 
