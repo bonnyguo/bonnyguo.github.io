@@ -1,0 +1,36 @@
+ 
+.container{
+	position:absolute;
+	
+}
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+div{
+	position:absolute; 
+/*	left:10%;	
+	top:20%;*/
+	width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+	width:80%;
+	height:80%;
+	margin: auto;
+	border: 5px solid yellow;
+	padding: 10px;
+
+}
+		
+
+.frame{
+	position:absolute; 
+	left:40%;	
+	top:60%;
+	width:80%;
+	height:80%;
+
+}
