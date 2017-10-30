@@ -1,0 +1,206 @@
+/* 
+
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}*/
+
+div{
+	width:100%;
+	height:100%;
+	/*background-color: black;*/
+	position:absolute; 
+	left:0%;	
+	top:0%;
+   /* background-color: red;*/
+ 	/*animation-name: example;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: initial;
+    animation-direction: alternate;
+	
+	margin: auto;
+
+	padding: auto;*/
+	/* animation-delay:1s;*/
+	/* animation-timing-function: ease-in;*/
+
+}
+body{
+	margin: 0px;
+}
+.container1{
+	position:absolute; 
+border: 3px solid black;
+	left:0%;	
+	top:0%;
+	width:100%;
+	height:100%;
+	/*animation-name: example;*/
+	/*overflow: hidden;*/
+}
+.container2{
+	position:absolute; 
+border: 3px solid black;
+	left:0%;	
+	top:0%;
+	width:100%;
+	height:100%;
+/*	animation-name: example;*/
+	/*overflow: hidden;*/
+}
+.container3{
+	position:absolute; 
+border: 3px solid black;
+	left:0%;	
+	top:100%;
+	width:100%;
+	height:100%;
+/*	animation-name: example;*/
+	/*overflow: hidden;*/
+}
+.container4{
+	position:absolute; 
+border: 3px solid black;
+	left:0%;	
+	top:100%;
+	width:100%;
+	height:100%;
+	
+}
+.container5{
+	position:absolute; 
+border: 3px solid black;
+	left:0%;	
+	top:200%;
+	width:100%;
+	height:100%;
+/*	animation-name: example;*/
+	/*overflow: hidden;*/
+} 
+.container6{
+	position:absolute; 
+border: 3px solid black;
+	left:0%;	
+	top:200%;
+	width:100%;
+	height:100%;
+
+}
+
+.frame1{
+	position:relative; 
+	width:90%;
+	height:80%;
+	border: 10px solid yellow;
+	margin: 0%;
+	margin-left: 0%;
+	transform: scale(0.9, 0.9);
+	transform: rotateX(0deg);
+	transform: rotateY(0deg);
+	transform: rotateZ(0deg);
+	z-index: 50;
+/*	z-index: 50;
+	animation-name: example 15s linear infinite;
+
+    animation-direction: alternate;
+	*/
+	margin: auto;
+
+	padding: auto;
+
+}
+
+.frame2{
+	position:relative; 
+	width:90%;
+	height:80%;
+	border: 10px solid black;
+	margin: 0%;
+	margin-left: 0%;
+	transform: scale(0.9, 0.9);
+	transform: rotateX(0deg);
+	transform: rotateY(0deg);
+	transform: rotateZ(0deg);
+	z-index: 50;
+	animation-name: example;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: initial;
+    animation-direction: alternate;
+	
+	margin: auto;
+
+	padding: auto;
+}
+.frame3{
+
+	position:absolute; 
+	width:90%;
+	height:80%;
+	border: 5px solid yellow;
+	margin: 0%;
+	margin-left: 0%;
+	transform: rotateY(50deg);
+
+}
+.frame4{
+
+	position:absolute; 
+	width:90%;
+	height:80%;
+	border: 5px solid black;
+	margin: 0%;
+	margin-left: 0%;
+	transform: rotateY(50deg);
+	animation-name: example;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: initial;
+    animation-direction: alternate;
+	
+	margin: auto;
+
+	padding: auto;
+}
+.frame5{
+	position:absolute; 
+	width:90%;
+	height:80%;
+	border: 5px solid yellow;
+	margin: 0%;
+	margin-left: 0%;
+	transform: rotateX(89deg);
+	transform: rotateY(89deg);
+}
+.frame6{
+	position:absolute; 
+	width:90%;
+	height:80%;
+	border: 5px solid black;
+	margin: 0%;
+	margin-left: 0%;
+	transform: rotateX(89deg);
+	transform: rotateY(89deg);
+	animation-name: example;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: initial;
+    animation-direction: alternate;
+	
+	margin: auto;
+
+	padding: auto;
+}
+
+
+@keyframes example {
+    0%   { left:0%; top:0%;}
+    10%   { left:0%; top:0%;}
+
+    90%   { left:0%; top: 15%;}
+    100%   { left:0%; top: 15%;}
+
+
+
+
